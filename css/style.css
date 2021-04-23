@@ -163,3 +163,7 @@ header nav ul li:hover a {
 #count h3 {
   font-size: 1.5rem;
 }
+
+#count h5 {
+  font-size: 5rem;
+}
