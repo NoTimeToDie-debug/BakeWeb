@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- light box -->
     <link href="./lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="./lib/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./lib/owl-carousel/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -126,19 +130,19 @@
             </div>
             <div class="service__item">
                 <i class="far fa-snowflake"></i>
-                <h3>Tasty Cakes</h3>
+                <h3>Creativity</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button>Learn more</button>
             </div>
             <div class="service__item">
                 <i class="fas fa-chart-pie"></i>
-                <h3>Tasty Cakes</h3>
+                <h3>Tradition</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button>Learn more</button>
             </div>
             <div class="service__item">
                 <i class="fab fa-slideshare"></i>
-                <h3>Tasty Cakes</h3>
+                <h3>Quality</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button>Learn more</button>
             </div>
@@ -159,39 +163,49 @@
                 </a>
             </div>
             <div class="gallery__item">
-                <img src="./images/g2.jpg" alt="">
-                <div class="text">
-                    <h2><span>Our</span> Gallery</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
-                </div>
+                <a href="./images/g2.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="./images/g2.jpg" alt="">
+                    <div class="text">
+                        <h2><span>Our</span> Gallery</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                </a>
             </div>
             <div class="gallery__item">
-                <img src="./images/g3.jpg" alt="">
-                <div class="text">
-                    <h2><span>Our</span> Gallery</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
-                </div>
+                <a href="./images/g3.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="./images/g3.jpg" alt="">
+                    <div class="text">
+                        <h2><span>Our</span> Gallery</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                </a>
             </div>
             <div class="gallery__item">
-                <img src="./images/g4.jpg" alt="">
-                <div class="text">
-                    <h2><span>Our</span> Gallery</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
-                </div>
+                <a href="./images/g4.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="./images/g4.jpg" alt="">
+                    <div class="text">
+                        <h2><span>Our</span> Gallery</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                </a>
             </div>
             <div class="gallery__item">
-                <img src="./images/g5.jpg" alt="">
-                <div class="text">
-                    <h2><span>Our</span> Gallery</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
-                </div>
+                <a href="./images/g5.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="./images/g5.jpg" alt="">
+                    <div class="text">
+                        <h2><span>Our</span> Gallery</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                </a>
             </div>
             <div class="gallery__item item__6">
-                <img src="./images/g6.jpg" alt="">
-                <div class="text">
-                    <h2><span>Our</span> Gallery</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
-                </div>
+                <a href="./images/g6.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="./images/g6.jpg" alt="">
+                    <div class="text">
+                        <h2><span>Our</span> Gallery</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -200,14 +214,280 @@
     <section id="bake__team">
         <h1>Bake Team</h1>
         <div class="team__content">
-            <div class="team__item"></div>
-            <div class="team__item"></div>
-            <div class="team__item"></div>
-            <div class="team__item"></div>
-            <div class="team__item"></div>
-            <div class="team__item"></div>
+            <div class="team__item">
+                <img src="./images/t1.jpg" alt="">
+                <div class="item__content">
+                    <h2>John Simon</h2>
+                    <h3>-Cake Maker</h3>
+                </div>
+                <div class="overlay">
+                    <div class="text">
+                        <h2>John Simon</h2>
+                        <h3>-Cake Maker</h3>
+                        <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam</p>
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./images/t2.jpg" alt="">
+                <div class="item__content">
+                    <h2>Max Will</h2>
+                    <h3>-Coffee Maker</h3>
+                </div>
+                <div class="overlay">
+                    <div class="text">
+                        <h2>John Simon</h2>
+                        <h3>-Cake Maker</h3>
+                        <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam</p>
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./images/t3.jpg" alt="">
+                <div class="item__content">
+                    <h2>Rose Murphy</h2>
+                    <h3>-Staff Manager</h3>
+                </div>
+                <div class="overlay">
+                    <div class="text">
+                        <h2>John Simon</h2>
+                        <h3>-Cake Maker</h3>
+                        <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam</p>
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./images/t4.jpg" alt="">
+                <div class="item__content">
+                    <h2>Barbara Will</h2>
+                    <h3>-Cake Maker</h3>
+                </div>
+                <div class="overlay">
+                    <div class="text">
+                        <h2>John Simon</h2>
+                        <h3>-Cake Maker</h3>
+                        <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam</p>
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./images/t1.jpg" alt="">
+                <div class="item__content">
+                    <h2>Derek Bybee</h2>
+                    <h3>-Coffee Maker</h3>
+                </div>
+                <div class="overlay">
+                    <div class="text">
+                        <h2>John Simon</h2>
+                        <h3>-Cake Maker</h3>
+                        <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam</p>
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./images/t2.jpg" alt="">
+                <div class="item__content">
+                    <h2>Lucille Webster</h2>
+                    <h3>-Staff Manager</h3>
+                </div>
+                <div class="overlay">
+                    <div class="text">
+                        <h2>John Simon</h2>
+                        <h3>-Cake Maker</h3>
+                        <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam</p>
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Testimonials -->
+    <section id="testimonial">
+        <h1>Testimonials</h1>
+        <div class="testimonial__content">
+            <div class="owl-carousel owl-theme">
+                <div class="testimonial__item">
+                    <p><i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                        minima eum, culpa ducimus facilis
+                        fugit praesentium provident ipsa quas.
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                    <h3>Allyi</h3>
+                </div>
+                <div class="testimonial__item">
+                    <p><i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                        minima eum, culpa ducimus facilis
+                        fugit praesentium provident ipsa quas.
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                    <h3>Willson</h3>
+                </div>
+                <div class="testimonial__item">
+                    <p><i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                        minima eum, culpa ducimus facilis
+                        fugit praesentium provident ipsa quas.
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                    <h3>Max</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact__content">
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="Email">
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button class="btn btn-pink">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5095339693344!2d106.67768861534742!3d10.772232162215396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f211a20768b%3A0x8572e0bb5f8e4b71!2sT%C3%B2a%20nh%C3%A0%20Xuri%20building%20Tam%20Ho%C3%A0ng%20Land!5e0!3m2!1svi!2s!4v1619276183189!5m2!1svi!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="map__bottom">
+            <div class="map__bottom__item">
+                <i class="fas fa-home"></i>
+                <p>25478 Road St.121</p>
+                <p>USA New Hill</p>
+            </div>
+            <div class="map__bottom__item">
+                <i class="fas fa-phone"></i>
+                <p>+(000) 123 4565 32</p>
+                <p>+(010) 123 4565 35</p>
+            </div>
+            <div class="map__bottom__item">
+                <i class="fas fa-envelope-open"></i>
+                <p><a href="#">info@example1.com</a></p>
+                <p><a href="#">info@example2.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__content">
+            <div class="footer__item about__us">
+                <h3>About Us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non iste amet eligendi explicabo repellat
+                    .</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__item working__time">
+                <h3>Working Time</h3>
+                <ul>
+                    <li>Monday <span>9:30-18:30</span></li>
+                    <li>Tuesday <span>9:30-18:30</span></li>
+                    <li>Wednesday <span>9:30-18:30</span></li>
+                    <li>Thursday <span>9:30-18:30</span></li>
+                    <li>Friday <span>9:30-18:30</span></li>
+                    <li>Saturday <span>9:30-18:30</span></li>
+                    <li>Sunday <span>closed</span></li>
+                </ul>
+            </div>
+            <div class="footer__item twitter__us">
+                <h3>Twitter Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur.
+                </p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur.
+                </p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur.
+                </p><br>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer__item subscribe__us">
+                <h3>Subscribe us</h3>
+                <form>
+                    <div class="row">
+                        <div class="form-control">
+                            <input type="text" placeholder="name@example.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="btn__subscribe">
+                            <button >Send</button>
+                        </div>
+                    </div>
+                </form>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos natus blanditiis veniam repellat sed
+                    officiis consectetur ipsam.</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p><i class="far fa-copyright"></i>&nbsp;2018 Bake. All Rights Reserved | Design by <span><a href="#">W3Layouts</a></span></p>
+        </div>
+    </footer>
+    <a href="#carousel" style="position: fixed; bottom: 1rem; right: 2rem; z-index: 2;"><img src="./images/to-top.png" alt="" style="width: 3rem;"></a>
+
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -227,6 +507,28 @@
     </script>
     <!-- light box -->
     <script src="./lib/lightbox/js/lightbox.min.js"></script>
+    <!-- owl-carousel -->
+    <script src="./lib/owl-carousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
 </body>
 
-</html> 
+</html>
